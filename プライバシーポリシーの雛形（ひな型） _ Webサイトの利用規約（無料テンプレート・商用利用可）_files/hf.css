@@ -1,0 +1,60 @@
+/* CSS Document */
+/*-------------------------------*/
+#wrapHead{
+	background:#5db5bd;
+	height:130px;
+}
+#wrapHead .eleUnit {
+	position: relative;
+	background:#5db5bd;
+	height:130px;
+}
+p.siteName{
+	padding:35px 0 0 0;
+}
+p.navHome{
+	position:absolute;
+	top:20px;
+	right:0;
+}
+/*-------------------------------*/
+#wrapFoot {
+	margin:40px 0 0 0;
+	background: #ffffff;
+}
+#wrapFoot .eleUnit {
+	border-top:1px solid #dedede;
+	padding:40px 0;
+}
+#wrapFoot .eleUnit:after {
+	content: "";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+#wrapFoot ul{
+	float:left;
+	height:60px;
+}
+#wrapFoot ul li{
+	padding:0 20px 0 0;
+	display:inline;
+	font-size:0.9em;
+	line-height: 140%;
+}
+#wrapFoot p {
+	float:right;
+}
+#wrapFoot dl.siteLink{
+	clear:both;
+	height:60px;
+}
+#wrapFoot dl.siteLink dd{
+	float:right;
+	padding:20px 0;
+	font-size:0.9em;
+	margin:0 0 0 20px;
+}
+/*-------------------------------*/
+/*end*/
